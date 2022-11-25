@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký</title>
+</head>
+<body>
+	<h1>Đăng ký</h1>
+	<form action="/PBL3/register" method="post">
+		Email: <input type="email" name = "email">
+		Password: <input type="password" name = "pass">
+		Confirm password: <input type="password" name = "cfpass">
+		<button type="submit">Đăng ký</button>
+	</form>
+</body>
+</html>

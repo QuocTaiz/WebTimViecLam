@@ -1,0 +1,34 @@
+1655014464880	Rename resource 'index.html'
+1655014568350	Rename resource 'job-add.html'
+1655033301618	Rename resource 'company-add.html'
+1655033482424	Rename resource 'index.html'
+1655033496803	Rename resource 'j.html'
+1655033506780	Rename resource 'company-detail.html'
+1655033517710	Rename resource 'company-manage.html'
+1655033524078	Rename resource 'index.html'
+1655033549321	Rename resource 'job-add.html'
+1655033578859	Rename resource 'job-apply.html'
+1655033596772	Rename resource 'job-candidates.html'
+1655033613240	Rename resource 'job-detail.html'
+1655033628228	Rename resource 'job-manage.html'
+1655033637135	Rename resource 'page-faq.html'
+1655033850384	Rename resource 'resume-add.html'
+1655033868437	Rename resource 'resume-detail.html'
+1655033885829	Rename resource 'resume-manage.html'
+1655033918915	Rename resource 'user-forget-pass.html'
+1655033940526	Rename resource 'user-login.html'
+1655033963490	Rename resource 'user-register.html'
+1655033975180	Rename resource 'user-detail.html'
+1655103944193	Rename resource 'user-forget-pass.jsp'
+1655110127557	Delete element
+1655110147904	Delete element
+1655135477304	Delete element
+1655140153533	Delete element
+1655371361220	Delete element
+1655390911727	Delete element
+1655472270764	Rename compilation unit 'ForwardUpdateCVServlet.java'
+1655485072566	Delete element
+1655491950815	Encapsulate field 'img'
+1655585031951	Delete element
+1655585059480	Rename type 'PostDAO'
+1655585074459	Rename type 'Post'

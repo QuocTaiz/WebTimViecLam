@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<monitors>
+  <monitor port="6094" portId="0" serverId="Tomcat v10.0" started="true"/>
+</monitors>

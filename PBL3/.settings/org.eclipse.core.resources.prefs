@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/controller/ChangePassServlet.java=UTF-8
+encoding//src/main/java/controller/JobInspectServlet.java=UTF-8
+encoding//src/main/java/controller/LoginServlet.java=UTF-8
+encoding//src/main/java/controller/RegisterJSServlet.java=UTF-8
+encoding//src/main/java/dao/JobApplyDAO.java=UTF-8
+encoding//src/main/java/dao/JobDAO.java=UTF-8
+encoding//src/main/webapp/view/page-faq.jsp=UTF-8
