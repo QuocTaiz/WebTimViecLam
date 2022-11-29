@@ -1,0 +1,73 @@
+CREATE TABLE account(
+	id int(10) unsigned AUTO_INCREMENT PRIMARY KEY,
+    email varchar(50),
+    password varchar(50),
+    role varchar(15),
+    is_block bit NOT NULL
+);
+
+
+CREATE TABLE info_user (
+	id int(10) unsigned AUTO_INCREMENT PRIMARY KEY,
+    name varchar(50),
+    gender bit,
+    birth date,
+    address text,
+    phone varchar(15),
+    email varchar(50),
+    id_cpn int(10) unsigned,
+    created_time datetime DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE apply_job (
+	id int(10) unsigned AUTO_INCREMENT PRIMARY KEY,
+    id_user int(10) unsigned,
+    id_job int(10) unsigned,
+    apply_time datetime DEFAULT CURRENT_TIMESTAMP,
+    status varchar(20)
+);
+
+CREATE TABLE job (
+	id int(10) unsigned AUTO_INCREMENT PRIMARY KEY,
+   	id_user int(10) unsigned,
+	id_cpn int(10) unsigned,
+    	title text,
+   	sort_desc text,
+   	address text,
+   	job_type text,
+    	job_salary text,
+    	job_exp text,
+    	job_NoHW text,
+	job_degree text,
+    	time_post datetime DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE cv (
+	id int(10) unsigned AUTO_INCREMENT PRIMARY KEY,
+    id_create int(10) unsigned,
+    name text,
+    title text,
+    sort_desc text,
+    address text,
+    website text,
+    old tinyint unsigned,
+    email text,
+    phone varchar(10),
+    img text,
+    change_time date DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE company (
+	id int(10) unsigned AUTO_INCREMENT PRIMARY KEY,
+	id_create int(10) unsigned,
+   	name text,
+    	title text,
+    	sort_desc text,
+	num_employees int(6) unsigned,
+	website text,
+    	address text,
+    	phone varchar(15),
+    	email varchar(50),
+	img text,
+);
+
